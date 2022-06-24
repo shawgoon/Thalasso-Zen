@@ -1,0 +1,82 @@
+/* css du header et du footer */
+
+/* généralité */
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ul{
+    list-style-type: none;
+}
+
+/* header */
+
+#headerImg{
+    background-image: url(http://localhost/Thalasso-Zen/pictures/header/images6.jpg);
+    height: 30vh;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+h1{
+    position: absolute;
+    top: 0; 
+    color: #4FF216; 
+}
+h1 span{
+    text-align: center;
+}
+#login{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    color: #4FF216;
+}
+#login a{
+    color: #4FF216;
+    
+}
+
+
+/* footer */
+
+footer{
+    background-color: #4FF216;
+    height: 15vh;
+    font-size: 1em;
+}
+footer ul{
+    height: 5vh;
+    display: flex;
+    text-align: center;
+    /* justify-content: space-around; */
+}
+footer ul a{
+    padding: 1em;
+}
+footer ul a:hover{
+    background-color: #24690b;
+    cursor: pointer;
+}
+.iconImg{
+    width: 3em;height: 3em;
+    margin: 0.5em;
+}
+footer img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}

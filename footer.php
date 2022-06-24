@@ -1,15 +1,17 @@
     <footer>
-        <a href="">Annonceurs</a>
-        <a href="">Contacts</a>
-        <a href="">Qui sommes-nous</a>
-        <a href="">Mentions légales</a>
-        <a href="">Pour nous trouver</a>
-        <p> Suivez nous : 
-            <div class="iconImg"><img src="./pictures/icon/Facebook_icon.png" alt="facebook icon"></div>
-            <div class="iconImg"><img src="./pictures/icon/twitter_icon.png" alt="tweeter icon"></div>
-            <div class="iconImg"><img src="./pictures/icon/linkedin_icon.png" alt="linkedin icon"></div>
-            <div class="iconImg"><img src="./pictures/icon/logo-instagram.jpg" alt="instagram icon"></div>
-        </p>
+        <ul>
+            <li><a href="">Annonceurs</a></li>
+            <li><a href="">Contacts</a></li>
+            <li><a href="">Qui sommes-nous</a></li>
+            <li><a href="">Mentions légales</a></li>
+            <li><a href="">Pour nous trouver</a></li>
+        </ul>
+        <div class="social"><p>Suivez nous : </p> 
+            <div class="iconImg"><a href=""><img src="http://localhost/Thalasso-Zen/pictures/icon/Facebook_icon.png" alt="facebook icon"></a></div>
+            <div class="iconImg"><a href=""><img src="http://localhost/Thalasso-Zen/pictures/icon/tweeter_icon.png" alt="tweeter icon"></a></div>
+            <div class="iconImg"><a href=""><img src="http://localhost/Thalasso-Zen/pictures/icon/linkedin_icon.png" alt="linkedin icon"></a></div>
+            <div class="iconImg"><a href=""><img src="http://localhost/Thalasso-Zen/pictures/icon/logo-instagram.jpg" alt="instagram icon"></a></div>
+        </div>
     </footer>
 </body>
 </html>
