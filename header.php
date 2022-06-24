@@ -14,10 +14,12 @@
 <body>
     <header>
         <div id="headerImg"></div>
+        <div id="logo">
         <h1>Thalasso<br>
             <span>ZEN</span></h1>
+        </div>
              
-             <div id="login"><a href="">Inscription</a> | <a href="">Connexion</a></div>
+        <div id="login"><a href="">Inscription</a> | <a href="">Connexion</a></div>
     </header>
     
     

@@ -15,18 +15,22 @@ a{
 ul{
     list-style-type: none;
 }
+ul a:hover{
+    background: #24690b;
+    cursor: wait;
+}
 
 /* header */
 
 #headerImg{
-    background-image: url(http://localhost/Thalasso-Zen/pictures/header/images6.jpg);
+    background-image: url(http://localhost/Thalasso-Zen/assets/pictures/header/images6.jpg);
     height: 30vh;    
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
 }
-h1{
+#logo{
     position: absolute;
     top: 0; 
     color: #4FF216; 
@@ -50,22 +54,19 @@ h1 span{
 /* footer */
 
 footer{
-    background-color: #4FF216;
-    height: 15vh;
+    background: #4FF216;
+    height: 30vh;
     font-size: 1em;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
 footer ul{
-    height: 5vh;
-    display: flex;
-    text-align: center;
-    /* justify-content: space-around; */
+    margin: 1em;
 }
-footer ul a{
+
+footer li{
     padding: 1em;
-}
-footer ul a:hover{
-    background-color: #24690b;
-    cursor: pointer;
 }
 .iconImg{
     width: 3em;height: 3em;
@@ -77,6 +78,6 @@ footer img{
 }
 
 .social{
-    display: flex;
+    padding: 1em;
     align-items: center;
 }

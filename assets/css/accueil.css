@@ -1,10 +1,18 @@
 nav{
-    background-color: #4FF216;
+    background: #4FF216;
     height: 3em;
     display: flex;
-    /* justify-content: space-around; */
+    align-items: center;
+    justify-content: space-around;
+  }
+nav ul{
+  display: flex;
+}
+nav li{
+  margin: 0 0.5em;
 }
 
+/* section #slideShow */
 /* forme de mon carousel */
 
 #slideShow {
@@ -78,3 +86,60 @@ nav{
   }
   
   /* fin d'animation du carousel */
+
+  /* section #discribe*/
+
+    /* étiquettes */
+.label{
+  width: 10em;height: 3em;
+  background: #4FF216;
+  margin: 1em auto;
+}
+.elipse{
+  width: 10em;height: 3em;
+  background: #D9D9D9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+    /* A propos */
+#apropos{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+#discribe p{
+  text-align: center;
+  margin: 2em auto;
+}
+  /* notre parc, notre équipe, reservation */
+#park,
+#team{
+  display: flex;
+  flex-direction: column;
+}
+.pict{
+  width: 90%;
+  margin: 1em auto;
+}
+#park img,
+#team img{
+  width: 100%;
+  margin: 1em auto;
+  border-radius: 50%;
+}
+#team img{
+  margin-top: 5em;
+}
+#reservation{
+  margin: 2em auto;
+  width: 90%;height: 5em;
+  border-radius: 50%;
+  vertical-align: middle;
+  background: #4FF216;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

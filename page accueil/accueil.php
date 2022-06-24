@@ -1,4 +1,4 @@
-<?php include('./header.php'); ?>
+<?php include('../header.php'); ?>
 
 <nav>
     <ul>
@@ -14,24 +14,24 @@
     <div class="container">
         <div class="silder">
             <figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/pictures/accueil/le domaine.jpg" alt=""/>
+                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/le domaine.jpg" alt=""/>
                 <figcaption>Le domaine</figcaption>
             </figure><!-- 
             --><figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/pictures/accueil/canal boisé.jpg" alt=""/>
+                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/canal boisé.jpg" alt=""/>
                 <figcaption>Le canal boisé</figcaption>
             </figure><!-- 
             --><figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/pictures/accueil/equipe.jpg" alt=""/>
+                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/equipe.jpg" alt=""/>
                 <figcaption>Notre équipe</figcaption>
             </figure>
         </div>
     </div>
 </section>
-<section>
-    <div id="aPropos">
-        <div>
-            <div>
+<section id="discribe">
+    <div id="apropos">
+        <div class="label">
+            <div class="elipse">
                 <h3>A propos</h3>
             </div>
         </div>
@@ -41,32 +41,40 @@
         La cadre idilique en bord de rivière relaxant en tout point.
         Et avec toutes nos activités vous repartirez détendu.</p>
     </div>
-    <div id="parc">
+    <div id="park">
         <div>
-            <div>
-                <h3>Notre parc</h3>
+            <div class="label">
+                <div class="elipse">
+                    <h3>Notre parc</h3>
+                </div>
             </div>
+            <p>Des promenades agréables et reposantes.</p>
         </div>
-        <p>Des promenades agréables et reposantes.</p>
-        <img src="http://localhost/Thalasso-Zen/pictures/accueil/canal boisé.jpg" alt="canal boisé">
+        <div class="pict">
+            <img src="http://localhost/Thalasso-Zen/assets/pictures/accueil/canal boisé.jpg" alt="canal boisé">
+        </div>
     </div>
-    <div>
-        <img src="http://localhost/Thalasso-Zen/pictures/accueil/equipe.jpg" alt="notre équipe">
+    <div id="team">
         <div>
-            <div>
-                <h3>Notre équipe</h3>
+            <div class="label">
+                <div class="elipse">
+                    <h3>Notre équipe</h3>
+                </div>
+                <p>Jeune et dynamique, <!-- <br> -->notre équipe sera aux petits soins pour vous.</p>
             </div>
         </div>
-        <p>Jeune et dynamique, notre équipe sera aux petits soins pour vous.</p>
+        <div class="pict">
+            <img src="http://localhost/Thalasso-Zen/assets/pictures/accueil/equipe.jpg" alt="notre équipe">
+        </div>
     </div>
 </section>
 <section>
     <a href="http://localhost/Thalasso-Zen/page reservation/reservation.php">
         <div id="reservation">
-            <p>Réservez dès maintenant</p>
+            <p>Réservez dès maintenant !</p>
         </div>
     </a>
 </section>
 </main>
-<?php include('./footer.php'); ?>
+<?php include('../footer.php'); ?>
 
