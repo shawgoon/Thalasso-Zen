@@ -1,0 +1,57 @@
+
+
+.sectionNosChambre{
+    background-color: #505050;
+}
+
+.sectionNosChambreSide{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.grandTitre{
+    color: #4FF216;
+    font-size: 5rem;
+    letter-spacing: 1rem;
+    text-align: center;
+    padding: 3rem 0 5rem 0;
+}
+
+.petitTitre{
+    color: #4FF216; 
+    font-size: 3rem;
+    letter-spacing: 1rem;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.divChambre{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0;
+}
+
+.imageChambre{
+    background-color: white;
+    width: 30%;
+    height: 25vh;
+}
+
+.texteChambre{
+    width: 60%;
+    color: #4FF216;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.buttonAchat{
+    background-color: red;
+    width: 100%;
+    border: none;
+    letter-spacing: 1rem;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    margin: 3rem 0 10rem 0;
+}
