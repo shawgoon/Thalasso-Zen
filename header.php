@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="http://localhost/Thalasso-Zen/assets/css/chambre.css">
     <link rel="stylesheet" href="http://localhost/Thalasso-Zen/assets/css/resto-bar.css">
     <link rel="stylesheet" href="http://localhost/Thalasso-Zen/assets/css/reservation.css"> -->
-    <script src="master.js" defer></script>
+    <script src="http://localhost/Thalasso-Zen/assets/js/master.js" defer></script>
 </head>
 <body>
     <header>
