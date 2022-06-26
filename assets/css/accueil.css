@@ -127,26 +127,26 @@ nav{
   margin: 1em auto;
 }
 #park img,
-#team img{
+#team img,
+#reservation img{
   width: 100%;
   border-radius: 50%;
 }
-#team img{
-  margin-top: 6em;
-}
 #reservation{
-  margin: 2em auto;
-  width: 90%;height: 5em;
-  border-radius: 50%;
-  background: #4FF216;
+  width: 90%;
+  margin: 0.5em auto;
   font-size: 1.8em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-/* #reservation p{
-  width: 100%;
-} */
+#reservation img{
+  position: relative;
+  width: 100%; height: 4em;
+}
+#reservation p{
+  position: absolute;
+}
 
         /* Responsive desktop*/
 
@@ -209,8 +209,10 @@ nav{
     padding-top: 2em;
   }
   #reservation{
-    height: 10em;
-    font-size: 5em;
+    font-size: 3em;
+  }
+  #reservation img{
+    height: 8em;
   }
   
 

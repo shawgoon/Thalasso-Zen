@@ -79,6 +79,7 @@
 <section>
     <a href="http://localhost/Thalasso-Zen/page reservation/reservation.php">
         <div id="reservation">
+            <img src="http://localhost/thalasso-zen/assets/pictures/header/index.jpg" alt="réservez">
             <p>Réservez dès maintenant !</p>
         </div>
     </a>
