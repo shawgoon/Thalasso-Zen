@@ -1,45 +1,41 @@
+/* nav */
+
 nav{
-    background: #4FF216;
-    height: 3em;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-  }
-nav ul{
-  display: flex;
-}
-nav li{
-  margin: 0 0.5em;
+  background: #4FF216;
 }
 
-/* section #slideShow */
+/* section #sliderShow */
 /* forme de mon carousel */
 
-#slideShow {
-  width: 300%;
+#sliderShow {
+  width: 100%;
+  height: 20em;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   }
-  .slider {
+  .slider {  
     position: relative;
-    width: 300%;
-    animation: picts 14s linear infinite alternate;
+    width: 700%;
+    animation: picts 14s linear infinite;
   }
   figure {
     display: inline-block;
-    width: 33.33%;
-    /* width: 100%; */
+    width: 30em;
     /* height: 20em; */
+    /* width: 100%; */
   }
   .image {
     width: 100%;
-    height: 15em;
+    height: 17em;
   }
   figcaption {
     position: relative;
     background: #4FF216;
     color: black;
     text-align: center;
-    height: 3rem;
+    height: 3em;
     font-size: 1.5em;
     padding: .4em;
     bottom: 0.2em;
@@ -49,39 +45,48 @@ nav li{
 
   /* animation du carousel */
 
-@keyframes picts {
+  @keyframes picts {
     from {
       left: 0;
     }
   
     0%,
-    2% {
+    4% {
       left: 0;
     }
   
-    31%,
-    33% {
-      left: -33.3%;
+    16%,
+    20% {
+      left: -100%;
+    }
+  
+    32%,
+    36% {
+      left: -200%;
+    }
+  
+    48%,
+    52% {
+      left: -300%;
     }
   
     64%,
-    66% {
-      left: -33.66%;
+    68% {
+      left: -400%;
     }
   
-    /* 100%,
-    100% {
-      left: -300%;
-    } */
+    80%,
+    84% {
+      left: -500%;
+    }
   
     100%,
     96% {
-      left: -100%;
+      left: -600%;
     }
   
-    
     to {
-      left: -100%;
+      left: -600%;
     }
   }
   
@@ -109,16 +114,14 @@ nav li{
   align-items: center;
   flex-direction: column;
 }
-#discribe p{
+#apropos p,
+#park p,
+#team p{
   text-align: center;
   margin: 2em auto;
 }
   /* notre parc, notre équipe, reservation */
-#park,
-#team{
-  display: flex;
-  flex-direction: column;
-}
+
 .pict{
   width: 90%;
   margin: 1em auto;
@@ -126,20 +129,89 @@ nav li{
 #park img,
 #team img{
   width: 100%;
-  margin: 1em auto;
   border-radius: 50%;
 }
 #team img{
-  margin-top: 5em;
+  margin-top: 6em;
 }
 #reservation{
   margin: 2em auto;
   width: 90%;height: 5em;
   border-radius: 50%;
-  vertical-align: middle;
   background: #4FF216;
-  font-size: 2em;
+  font-size: 1.8em;
   display: flex;
   justify-content: center;
   align-items: center;
+}
+/* #reservation p{
+  width: 100%;
+} */
+
+        /* Responsive desktop*/
+
+@media screen and (min-width:576px){
+  
+
+    /* section #sliderShow */
+  #sliderShow{
+    width: 60em;
+    height: 40em;
+    margin: 0 auto;
+  }
+  figure{
+    width: 60em;
+  }
+  .image{
+    height: 34em;
+  }
+  figcaption{
+    height: 3em;
+    font-size: 4em;
+  }
+    /* section discribe */
+  .label{
+    width: 20em;height: 6em;
+  }
+  .elipse{
+    width: 20em;height: 6em;
+  }
+  .elipse h3{
+    font-size: 2em;
+  }
+  #apropos{
+    display: block;
+    width: 70%;
+    margin: 3em auto;
+  }
+  #apropos p,
+  #park p,
+  #team p{
+    font-size: 3em;
+  }
+    /* notre parc, notre équipe, reservation */
+  #park{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #team{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .pict{
+    width: 45%;
+  }
+  .left,
+  .right{
+    width: 45%;
+    padding-top: 2em;
+  }
+  #reservation{
+    height: 10em;
+    font-size: 5em;
+  }
+  
+
 }

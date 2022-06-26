@@ -1,18 +1,10 @@
-<?php include('../header.php'); ?>
+<?php include('../header.php'); ?> <!-- http://localhost/thalasso-zen -->
 
-<nav>
-    <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="http://localhost/Thalasso-Zen/page chambre/chambre.php">Chambres</a></li>
-        <li><a href="http://localhost/Thalasso-Zen/page activite/activite.php">Activités</a></li>
-        <li><a href="http://localhost/Thalasso-Zen/page resto - bar/resto - bar.php">Resto - Bar</a></li>
-        <li><a href="http://localhost/Thalasso-Zen/page reservation/reservation.php">Reservation</a></li>
-    </ul>
-</nav>
+
 <main>
-<section id="slideShow">
+<section id="sliderShow">
     <div class="container">
-        <div class="silder">
+        <div class="slider">
             <figure>
                 <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/le domaine.jpg" alt=""/>
                 <figcaption>Le domaine</figcaption>
@@ -24,7 +16,23 @@
             --><figure>
                 <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/equipe.jpg" alt=""/>
                 <figcaption>Notre équipe</figcaption>
-            </figure>
+            </figure><!--
+            --><figure>
+                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/le domaine.jpg" alt=""/>
+                <figcaption>Le domaine</figcaption>
+            </figure><!-- 
+            --><figure>
+                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/canal boisé.jpg" alt=""/>
+                <figcaption>Le canal boisé</figcaption>
+            </figure><!-- 
+            --><figure>
+                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/equipe.jpg" alt=""/>
+                <figcaption>Notre équipe</figcaption>
+            </figure><!-- 
+            --><figure>
+                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/le domaine.jpg" alt=""/>
+                <figcaption>Le domaine</figcaption>
+            </figure>      
         </div>
     </div>
 </section>
@@ -42,7 +50,7 @@
         Et avec toutes nos activités vous repartirez détendu.</p>
     </div>
     <div id="park">
-        <div>
+        <div class="left">
             <div class="label">
                 <div class="elipse">
                     <h3>Notre parc</h3>
@@ -55,13 +63,13 @@
         </div>
     </div>
     <div id="team">
-        <div>
+        <div class="right">
             <div class="label">
                 <div class="elipse">
                     <h3>Notre équipe</h3>
                 </div>
-                <p>Jeune et dynamique, <!-- <br> -->notre équipe sera aux petits soins pour vous.</p>
             </div>
+            <p>Jeune et dynamique, <!-- <br> -->notre équipe sera aux petits soins pour vous.</p>
         </div>
         <div class="pict">
             <img src="http://localhost/Thalasso-Zen/assets/pictures/accueil/equipe.jpg" alt="notre équipe">
@@ -76,5 +84,5 @@
     </a>
 </section>
 </main>
-<?php include('../footer.php'); ?>
+<?php include('../footer.php'); ?> <!-- http://localhost/thalasso-zen -->
 

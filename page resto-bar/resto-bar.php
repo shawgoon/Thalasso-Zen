@@ -8,9 +8,8 @@
         color: #4FF216;
     }
 </style>
-
 <main>
-<p style="font-size:3em;">C'est la page activités</p>
+<p style="font-size:3em;">C'est la page resto-bar</p>
     <section>
     <div class="diaporama">
             <div class="flecheDroit">
@@ -23,47 +22,46 @@
                 <img src="http://localhost/Thalasso-Zen/assets/pictures/diaporama/nbrSlider.png" alt="nbrSlider">
             </div>
         </div>
-    </section>
-    <section>
         
     </section>
 </main>
 <style>
-    /* section diaporama */
-    .diaporama {
-        position: relative;
-        width: 100%;
-        height: 50vh;
-        background-color: black;
-    }
-    .flecheDroit,
-    .flecheGauche,
-    .nbrSlider {
-        display: flex;
-        position: absolute;
-        width: 5rem;
-        height: 100%;
-    }
-    .flecheDroit {
-        right: 0;
-        align-items: center;
-    }
-    .flecheGauche {
-        left: 0;
-        align-items: center;
-    }
-    .nbrSlider {
-        width: 100%;
-        justify-content: center;
-        align-items: end; 
-    }
-    .flecheDroit img, .flecheGauche img{
-        width: 100%;
-    }
-    .nbrSlider img{
-        width: 5rem;
-        padding-bottom: 1.5rem;
-    }
+
+   /* section diaporama */
+.diaporama {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+}
+.flecheDroit,
+.flecheGauche,
+.nbrSlider {
+    display: flex;
+    position: absolute;
+    width: 5rem;
+    height: 100%;
+}
+.flecheDroit {
+    right: 0;
+    align-items: center;
+}
+.flecheGauche {
+    left: 0;
+    align-items: center;
+}
+.nbrSlider {
+    width: 100%;
+    justify-content: center;
+    align-items: end; 
+}
+.flecheDroit img, .flecheGauche img{
+    width: 100%;
+}
+.nbrSlider img{
+    width: 5rem;
+    padding-bottom: 1.5rem;
+} 
 </style>
 <?php include('../footer.php'); ?>
 <style>

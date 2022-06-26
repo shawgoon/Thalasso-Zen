@@ -1,18 +1,27 @@
 <?php include('../header.php'); ?>
-<p>c'est la page réservation</p>
-<!-- ici tu mets tout ton body -->
-<nav>
-    <ul>
-        <li><a href="http://localhost/Thalasso-Zen/page accueil/accueil.php">Accueil</a></li>
-        <li><a href="http://localhost/Thalasso-Zen/page chambres/chambres.php">Chambres</a></li>
-        <li><a href="http://localhost/Thalasso-Zen/page activite/activite.php">Activités</a></li>
-        <li><a href="http://localhost/Thalasso-Zen/page resto - bar/resto - bar.php">Resto - Bar</a></li>
-        <li><a href="#">Reservation</a></li>
-    </ul>
-</nav>
+<style>
+    /* changement de css nav */
+nav{
+    background: #504646;
+}
+nav a{
+    color: #4FF216;
+}
+</style>
 <main>
     <section>
-        
+        <!-- ici tu mets tout ton code -->
+        <p style="font-size:3em;">C'est la page réservation</p>
     </section>
 </main>
 <?php include('../footer.php'); ?>
+<style>
+   /* changement de css footer */
+ footer{
+    background: #504646;
+    color: #4FF216;
+}
+footer a{
+    color: #4FF216;
+}
+</style>

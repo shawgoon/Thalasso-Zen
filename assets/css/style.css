@@ -15,13 +15,17 @@ a{
 ul{
     list-style-type: none;
 }
-ul a:hover{
-    background: #24690b;
-    cursor: wait;
+ul li:hover{
+    background: #2ead00;
+    cursor: pointer;
 }
 
 /* header */
 
+#login a:hover{
+    color: #2ead00;
+    cursor: pointer;
+}
 #headerImg{
     background-image: url(http://localhost/Thalasso-Zen/assets/pictures/header/images6.jpg);
     height: 30vh;    
@@ -50,12 +54,27 @@ h1 span{
     
 }
 
+/* nav */
+
+nav{
+    height: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    padding: 10em 0.2em;
+    margin: 0 0.3em;
+}
 
 /* footer */
 
 footer{
     background: #4FF216;
-    height: 30vh;
+    height: 40vh;
     font-size: 1em;
     display: flex;
     justify-content: space-around;
@@ -80,4 +99,56 @@ footer img{
 .social{
     padding: 1em;
     align-items: center;
+}
+
+                 /* Responsive */
+
+@media screen and (min-width:576px){
+
+    /* header */
+  #headerImg{
+    height: 50vh;
+  }
+  #logo{
+    font-size: 4em;
+  }
+  #login{
+    font-size: 3em;
+  }
+
+  /* nav */
+  nav{
+    height: 5em;
+    font-size: 1.5em;
+  }
+  nav li{
+    margin: 0 2em;
+    padding: 2em
+  }
+
+  /* footer */
+  footer{
+    height: 25vh;
+    display: block;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer li{
+    font-size: 1.5em;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+}
+.social p{
+    font-size: 2em;
+}
+.iconImg{
+    width: 5em;height: 5em;
+    margin: 1em;
+}
+
 }
