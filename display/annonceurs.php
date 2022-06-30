@@ -13,9 +13,11 @@
 
     /***** responsive Desktop *****/  
 
-    #advertiserWrap{
-        width:50%;
-        margin: 0 auto;
+    @media screen and (min-width:576px){
+        #advertiserWrap{
+            width:50%;
+            margin: 0 auto;
+        }
     }
 
 </style>

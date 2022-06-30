@@ -18,8 +18,10 @@
 
      /***** responsive Desktop *****/  
 
-     #whoWrap{
-      width: 60%;
-      margin: 0 auto;
-    }
+     @media screen and (min-width:576px){
+         #whoWrap{
+            width: 60%;
+            margin: 0 auto;
+        }
+     }
 </style>

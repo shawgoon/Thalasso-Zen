@@ -58,11 +58,13 @@
 
      /***** responsive Desktop *****/  
 
-     #cgvWrap{
-      width: 60%;
-      margin: 0 auto;
-    }
-    #cgvWrap p{
-        font-size: 1.2em;
+     @media screen and (min-width:576px){
+        #cgvWrap{
+            width: 60%;
+            margin: 0 auto;
+        }
+        #cgvWrap p{
+            font-size: 1.2em;
+        }
     }
 </style>

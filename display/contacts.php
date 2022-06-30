@@ -49,11 +49,13 @@
 
     /***** responsive Desktop *****/  
 
-    #contactWrap{
-      width: 60%;
-      margin: 0 auto;
-    }
-    form{
-      width: 50%;
-    }
+    @media screen and (min-width:576px){
+      #contactWrap{
+        width: 60%;
+        margin: 0 auto;
+      }
+      form{
+        width: 50%;
+      }
+    } 
 </style>

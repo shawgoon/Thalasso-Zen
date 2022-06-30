@@ -10,12 +10,14 @@
     }
 
      /***** responsive Desktop *****/  
-    #map{
-        width: 60%;
-        margin: 0 auto;
+    
+     @media screen and (min-width:576px){
+        #map{
+            width: 60%;
+            margin: 0 auto;
+        }
+        #find-usWrap iframe{
+            width:100%;
+        }
     }
-    #find-usWrap iframe{
-        width:100%;
-    }
-
 </style>
