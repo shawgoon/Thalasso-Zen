@@ -80,10 +80,10 @@
     <a href="http://localhost/Thalasso-Zen/page reservation/reservation.php">
         <div id="reservation">
             <img src="http://localhost/thalasso-zen/assets/pictures/header/index.jpg" alt="réservez">
-            <p>Réservez dès maintenant !</p>
+            <p>Réservez ici !</p>
         </div>
     </a>
 </section>
-</main>
+
 <?php include('../footer.php'); ?> <!-- http://localhost/thalasso-zen -->
 

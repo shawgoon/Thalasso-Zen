@@ -1,9 +1,3 @@
-/* nav */
-
-nav{
-  background: #4FF216;
-}
-
 /* section #sliderShow */
 /* forme de mon carousel */
 
@@ -23,8 +17,6 @@ nav{
   figure {
     display: inline-block;
     width: 30em;
-    /* height: 20em; */
-    /* width: 100%; */
   }
   .image {
     width: 100%;
@@ -148,11 +140,13 @@ nav{
   position: absolute;
 }
 
-        /* Responsive desktop*/
+        /***** Responsive desktop *****/
 
 @media screen and (min-width:576px){
   
-
+  main{
+    max-width: 80%;
+  }
     /* section #sliderShow */
   #sliderShow{
     width: 60em;
@@ -209,7 +203,7 @@ nav{
     padding-top: 2em;
   }
   #reservation{
-    font-size: 3em;
+    font-size: 5em;
   }
   #reservation img{
     height: 8em;

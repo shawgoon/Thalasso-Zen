@@ -57,7 +57,8 @@ h1 span{
 /* nav */
 
 nav{
-    height: 5em;
+    height: 3em;
+    background: #4FF216;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -66,7 +67,7 @@ nav ul{
     display: flex;
 }
 nav li{
-    padding: 10em 0.2em;
+    padding: 1em 0.2em;
     margin: 0 0.3em;
 }
 
@@ -100,6 +101,8 @@ footer img{
     padding: 1em;
     align-items: center;
 }
+
+
 
                  /* Responsive */
 
