@@ -9,11 +9,12 @@
         width: 100%;height: 45vh;
         background-image: url(../assets/pictures/hidden-picts/equilibre.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
         vertical-align: middle;
+        margin: 0 auto;
     }
     #whoWrap p{
-
+        font-size: 0.5em;
     }
 
      /***** responsive Desktop *****/  

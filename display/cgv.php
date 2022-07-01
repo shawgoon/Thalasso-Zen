@@ -47,7 +47,7 @@
         background: aqua;
         background-image: url(../assets/pictures/hidden-picts/bambou-droite.jpg);
         background-repeat: no-repeat;
-        background-size: 100%;
+        background-size: cover;
     }
     #cgvWrap img{
         width: 100%;
@@ -64,7 +64,7 @@
             margin: 0 auto;
         }
         #cgvWrap p{
-            font-size: 1.2em;
+            font-size: 1em;
         }
     }
 </style>

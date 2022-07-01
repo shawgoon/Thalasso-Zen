@@ -71,6 +71,46 @@ nav li{
     margin: 0 0.3em;
 }
 
+/* formulaires de connexion et d'inscription */
+
+/****** généralité ******/
+.hide{
+    position: absolute;
+    opacity: 1;
+    z-index: +1;
+}
+h2{
+    text-align: center;
+    color: rgb(37, 110, 37);
+    background: #4FF216;
+    padding: 0.3em;
+}
+.star{
+    color: red;
+}
+#wrapper{
+    background: fixed;
+    background-color: rgba(84, 247, 9, 0.4);
+    width: 100%;height: 50vh;
+    position: absolute;
+    z-index: 1;
+}
+/****** inscription ******/
+#formSignup{
+    width: 100%;
+}
+#formSignup p{
+    margin: 0 10%;
+}
+/****** connexion ******/
+#formLogin{
+    width: 100%;
+    margin: 0 auto;
+}
+#formLogin form{
+    margin-top: 3em;
+}
+
 /* footer */
 
 footer{
@@ -109,49 +149,77 @@ footer img{
 @media screen and (min-width:576px){
 
     /* header */
-  #headerImg{
-    height: 50vh;
-  }
-  #logo{
-    font-size: 4em;
-  }
-  #login{
-    font-size: 3em;
-  }
+    #headerImg{
+        height: 50vh;
+    }
+    #logo{
+        font-size: 4em;
+    }
+    #login{
+        font-size: 3em;
+    }
 
-  /* nav */
-  nav{
-    height: 5em;
-    font-size: 1.5em;
-  }
-  nav li{
-    margin: 0 2em;
-    padding: 2em
-  }
+    /* nav */
+    nav{
+        height: 5em;
+        font-size: 1.5em;
+    }
+    nav li{
+        margin: 0 2em;
+        padding: 2em
+    }
 
-  /* footer */
-  footer{
-    height: 25vh;
-    display: block;
-}
-footer ul{
-    display: flex;
-    justify-content: space-around;
-}
-footer li{
-    font-size: 1.5em;
-}
+    /* footer */
+    footer{
+        height: 25vh;
+        display: block;
+    }
+    footer ul{
+        display: flex;
+        justify-content: space-around;
+    }
+    footer li{
+        font-size: 1.5em;
+    }
 
-.social{
-    display: flex;
-    justify-content: center;
-}
-.social p{
-    font-size: 2em;
-}
-.iconImg{
-    width: 5em;height: 5em;
-    margin: 1em;
-}
+    .social{
+        display: flex;
+        justify-content: center;
+    }
+    .social p{
+        font-size: 2em;
+    }
+    .iconImg{
+        width: 5em;height: 5em;
+        margin: 1em;
+    }
+/* formulaires de connexion et d'inscription */
+
+/****** généralité ******/
+    #content{
+        width: 100%;height: 82vh;
+        background-image: url(/assets/pictures/gazon-border.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+    } 
+    #wrapper{
+        width: 70%;height: 82vh;
+        margin-left: 15%;
+    } 
+    h2{
+        margin-top: 1.8em;
+        margin-bottom: 3em;
+        padding: 0.5em;
+    }
+    #formSignup input,
+    #formLogin input{
+        margin: 1em auto;
+    }
+
+    /****** inscription ******/
+    #formSignup p{
+        margin: 1em 25%;
+    }
 
 }

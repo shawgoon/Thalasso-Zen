@@ -25,7 +25,7 @@
       width: 100%;height: 45vh;
       background-image: url(../assets/pictures/hidden-picts/bambou-gauche.webp);
       background-repeat: no-repeat;
-      background-size: 100%;
+      background-size: cover;
     }
     form{
       margin: 0 auto;
@@ -44,7 +44,7 @@
       padding: 0 .3em;
     }
     #contactWrap p{
-      margin: 0.5em 10%;
+      margin: 0.5em 25%;
     }
 
     /***** responsive Desktop *****/  

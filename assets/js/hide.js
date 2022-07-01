@@ -1,22 +1,36 @@
  window.onload = function() {
+                     // élements cachés
+    // éléments footer
     let blockAdvertiser = document.getElementById('advertiserWrap');
     let blockContact = document.getElementById('contactWrap');
     let blockWho = document.getElementById('whoWrap');
     let blockCgv = document.getElementById('cgvWrap');
     let blockFind = document.getElementById('find-usWrap');
-  
+    // éléments formulaires
+    let blockContent = document.getElementById('content');
+    let blockWrapper = document.getElementById('wrapper');
+    let blockSignup = document.getElementById('formSignup');
+    let blockLogin = document.getElementById('formLogin');
+             // liens pour faire apparaitre un élément caché
+    // éléments footer
     let linkAdvertiser = document.querySelector('[href="#advertiserWrap"]');
     let linkContact = document.querySelector('[href="#contactWrap"]');
     let linkWho = document.querySelector('[href="#whoWrap"]');
     let linkCgv = document.querySelector('[href="#cgvWrap"]');
     let linkFind = document.querySelector('[href="#find-usWrap"]');
-  
+    // éléments formulaires
+    let linkContent = document.querySelector('#content'); // a voir pour le clic plutôt sur le wrapper
+    let linkSignup = document.querySelector('[href="#formSignup"]');
+    let linkLogin = document.querySelector('[href="#formLogin"]');
+
+    // //cacher tous les encarts
     // blockAdvertiser.style.display = 'none';
     // blockContact.style.display = 'none';
     // blockWho.style.display = 'none';
     // blockCgv.style.display = 'none';
     // blockFind.style.display = 'none';
-    
+
+    // fonctions des éléménts footer
     linkAdvertiser.onclick = function () {
         blockAdvertiser.style.display = 'block';
         blockContact.style.display = 'none';
@@ -52,6 +66,34 @@
         blockCgv.style.display = 'none';
         blockFind.style.display = 'block';
     };
+    // fonctions des éléments formulaires
+
+    // // cacher tous les formulaires
+    // blockContent.style.display = 'none';
+    // blockWrapper.style.display = 'none';
+    // blockSignup.style.display = 'none';
+    // blockLogin.style.display = 'none'; 
+    // transition du formulaire d'inscription et du wrapper
+    linkSignup.onclick = function () {
+        blockContent.style.display = 'block';
+        blockWrapper.style.display = 'block';
+        blockSignup.style.display = 'block';
+        blockLogin.style.display = 'none';
+    }
+    // transition du formulaire de connexion'inscription et du wrapper
+    linkLogin.onclick = function () {
+        blockContent.style.display = 'block';
+        blockWrapper.style.display = 'block';
+        blockLogin.style.display = 'block';
+        blockSignup.style.display = 'none'; 
+    }
+    // annuler la transition des formulaires et wrapper
+    linkContent.onclick = function () {
+        blockContent.style.display = 'none';
+        blockWrapper.style.display = 'none';
+        blockSignup.style.display = 'none';
+        blockLogin.style.display = 'none'; 
+    }
   };
   
 /*  ************* cacher les div avec une boucle *********** */
