@@ -19,7 +19,7 @@
     let linkCgv = document.querySelector('[href="#cgvWrap"]');
     let linkFind = document.querySelector('[href="#find-usWrap"]');
     // éléments formulaires
-    let linkContent = document.querySelector('#content'); // a voir pour le clic plutôt sur le wrapper
+    let linkContent = document.querySelector('#content'); 
     let linkSignup = document.querySelector('[href="#formSignup"]');
     let linkLogin = document.querySelector('[href="#formLogin"]');
 

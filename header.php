@@ -24,12 +24,12 @@
         
         <div id="login"><a href="#formSignup">Inscription</a> | <a href="#formLogin">Connexion</a></div>
     </header>
-    <div id="content" style="display:none;">
+    <div id="content" style="display:none;"></div>
         <div id="wrapper" style="display:none;">
             <?php include "/forms/signup.php" ?>
             <?php include "/forms/login.php" ?>
         </div>
-    </div>
+    
 
     <nav>
         <ul>
