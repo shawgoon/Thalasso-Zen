@@ -15,10 +15,6 @@ a{
 ul{
     list-style-type: none;
 }
-ul li:hover{
-    background: #2ead00;
-    cursor: pointer;
-}
 
 /* header */
 
@@ -26,8 +22,11 @@ ul li:hover{
     color: #2ead00;
     cursor: pointer;
 }
+#login .fa-power-off{
+    color: red;
+}
 #headerImg{
-    background-image: url(http://localhost/Thalasso-Zen/assets/pictures/header/images6.jpg);
+    background-image: url(../pictures/header/images6.jpg);
     height: 30vh;    
     background-position: center;
     background-repeat: no-repeat;
@@ -54,21 +53,44 @@ h1 span{
     
 }
 
-/* nav */
+/* nav users & admin */
+#session{
+    height: 3.5em;
+    background: #bdf8a8;
+}
+#session ul{
+    display: flex;
+    justify-content: space-around;
+    padding: 1.2em 0;
+}
+.userUpdate,
+.adminUpdate{
+    height: 1.5em;
+    background: #4FF216;
+    border: none;
+}
+.userUpdate:hover,
+.adminUpdate:hover{
+    background: #2ead00;
+}
 
-nav{
+/* nav public*/
+#public{
     height: 3em;
     background: #4FF216;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-nav ul{
+#public ul{
     display: flex;
 }
-nav li{
-    padding: 1em 0.2em;
-    margin: 0 0.3em;
+#public li{
+    padding: 0.95em 0.2em;
+}
+#public li:hover{
+    background: #2ead00;
+    cursor: pointer;
 }
 
 /* formulaires de connexion et d'inscription */
@@ -107,6 +129,21 @@ h2{
     margin-top: 3em;
 }
 
+/****** réponse aux formulaire ******/
+
+.message{
+   text-align: center;
+}
+h5{
+    font-size: 3em;
+    margin: 2em;
+}
+.message p{
+   font-size: 1.5em;
+   margin: 2em;
+}
+
+
 /* footer */
 
 footer{
@@ -117,13 +154,16 @@ footer{
     justify-content: space-around;
     text-align: center;
 }
-footer ul{
-    margin: 1em;
-}
-
 footer li{
     padding: 1em;
 }
+footer li:hover{
+    background: #2ead00;
+}
+#advertiserWrap{
+    padding-bottom: 1.2em;
+}
+footer 
 .iconImg{
     width: 3em;height: 3em;
     margin: 0.5em;
@@ -155,14 +195,24 @@ footer img{
         font-size: 3em;
     }
 
-    /* nav */
-    nav{
+    /* nav users & admin */
+    #session{
         height: 5em;
+    }
+    .userUpdate,
+    .adminUpdate{
+        height: 2.8em;
+        width: 15em;
+        text-align: center;
+    }
+    /* nav public */
+    #public{
+        height: 4em;
         font-size: 1.5em;
     }
-    nav li{
+    #public li{
         margin: 0 2em;
-        padding: 2em
+        padding: 1.42em
     }
 
     /* footer */
@@ -177,7 +227,9 @@ footer img{
     footer li{
         font-size: 1.5em;
     }
-
+    #advertiserWrap{
+        padding-bottom: .05em;
+    }
     .social{
         display: flex;
         justify-content: center;
@@ -189,6 +241,8 @@ footer img{
         width: 5em;height: 5em;
         margin: 1em;
     }
+
+
 /* formulaires de connexion et d'inscription */
 
 /****** généralité ******/
@@ -198,12 +252,13 @@ footer img{
         margin: 0 15%;
     } 
     h2{
-        margin-top: 1.8em;
-        margin-bottom: 3em;
+        margin-top: 1.5em;
+        margin-bottom: 2em;
         padding: 0.5em;
     }
     #formSignup input,
     #formLogin input{
+        height: 2em;
         margin: 1em auto;
     }
 

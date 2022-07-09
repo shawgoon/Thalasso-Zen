@@ -1,7 +1,7 @@
 <div id="whoWrap" class="hideContent" style="display:none;">
-    <h3>Mais qui sommes-nous ?</h3>
+    <h4>Mais qui sommes-nous ?</h4>
     <div>
-        <p></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eaque aliquid asperiores consequuntur voluptate. Saepe odit aut aspernatur. Expedita velit placeat quis itaque sapiente vero ipsa labore veniam, dicta qui.</p>
     </div>
 </div>
 <style>
@@ -14,7 +14,7 @@
         margin: 0 auto;
     }
     #whoWrap p{
-        font-size: 0.5em;
+        font-size: 1em;
     }
 
      /***** responsive Desktop *****/  

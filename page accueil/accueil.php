@@ -1,36 +1,35 @@
 <?php include('../header.php'); ?> <!-- http://localhost/thalasso-zen -->
 
-
 <main>
 <section id="sliderShow">
     <div class="container">
         <div class="slider">
             <figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/le domaine.jpg" alt=""/>
+                <img class="image" src="../assets/pictures/accueil/le domaine.jpg" alt=""/>
                 <figcaption>Le domaine</figcaption>
             </figure><!-- 
             --><figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/canal boisé.jpg" alt=""/>
+                <img class="image" src="../assets/pictures/accueil/canal boisé.jpg" alt=""/>
                 <figcaption>Le canal boisé</figcaption>
             </figure><!-- 
             --><figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/equipe.jpg" alt=""/>
+                <img class="image" src="../assets/pictures/accueil/equipe.jpg" alt=""/>
                 <figcaption>Notre équipe</figcaption>
             </figure><!--
             --><figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/le domaine.jpg" alt=""/>
+                <img class="image" src="../assets/pictures/accueil/le domaine.jpg" alt=""/>
                 <figcaption>Le domaine</figcaption>
             </figure><!-- 
             --><figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/canal boisé.jpg" alt=""/>
+                <img class="image" src="../assets/pictures/accueil/canal boisé.jpg" alt=""/>
                 <figcaption>Le canal boisé</figcaption>
             </figure><!-- 
             --><figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/equipe.jpg" alt=""/>
+                <img class="image" src="../assets/pictures/accueil/equipe.jpg" alt=""/>
                 <figcaption>Notre équipe</figcaption>
             </figure><!-- 
             --><figure>
-                <img class="image" src="http://localhost/Thalasso-Zen/assets/pictures/accueil/le domaine.jpg" alt=""/>
+                <img class="image" src="../assets/pictures/accueil/le domaine.jpg" alt=""/>
                 <figcaption>Le domaine</figcaption>
             </figure>      
         </div>
@@ -69,7 +68,7 @@
                     <h3>Notre équipe</h3>
                 </div>
             </div>
-            <p>Jeune et dynamique, <!-- <br> -->notre équipe sera aux petits soins pour vous.</p>
+            <p>Jeune et dynamique, notre équipe sera aux petits soins pour vous.</p>
         </div>
         <div class="pict">
             <img src="http://localhost/Thalasso-Zen/assets/pictures/accueil/equipe.jpg" alt="notre équipe">

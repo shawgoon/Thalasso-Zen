@@ -1,0 +1,27 @@
+table{
+    margin: 2em auto;
+    border: solid 1px deepskyblue;
+}
+th,
+td{
+    padding: 0.5em 1em;
+    border: solid 1px deepskyblue; 
+    text-align: center;
+}
+
+/***** button *****/
+.action{
+    display: flex;
+}
+.tableBtn{
+    padding: 0.3em;
+}
+.fa-pen{
+    color: orange;
+}
+.fa-trash-can{
+    color: red;
+}
+.fa-hand-holding-medical{
+    color: green;
+}

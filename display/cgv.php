@@ -1,5 +1,5 @@
 <div id="cgvWrap" class="hideContent" style="display:none;">
-    <h3>Mentions légales</h3>  
+    <h4>Mentions légales</h4>  
     <p>La loi pour la confiance de l’économie numérique du 21 juin 2004 (Articles 6-III et 19 de la Loi n°2004-575) stipule que ces mentions contiennent :
 
     pour un entrepreneur individuel : nom, prénom, domicile
