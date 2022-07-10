@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Client :  127.0.0.1
--- Généré le :  Jeu 07 Juillet 2022 à 19:17
+-- Généré le :  Dim 10 Juillet 2022 à 21:30
 -- Version du serveur :  5.7.14
 -- Version de PHP :  5.6.25
 
@@ -52,9 +52,17 @@ CREATE TABLE `contacts` (
   `firstname` varchar(255) NOT NULL,
   `name` varchar(255) NOT NULL,
   `email` varchar(40) NOT NULL,
-  `phonenumber` varchar(10) NOT NULL,
   `message` text NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Contenu de la table `contacts`
+--
+
+INSERT INTO `contacts` (`id`, `choice`, `firstname`, `name`, `email`, `message`) VALUES
+(1, 'renseignements', 'tony', 'deconink', 'alban.havard@aliceadsl.fr', 'Comment faire pour rÃ©server ?'),
+(2, 'autre', 'Lorraine', 'Lescour', 'lorraineND@aol.com', 'Comment je fais j\'arrive pas, snif'),
+(3, 'autre', 'Lorraine', 'Lescour', 'lorraineND@aol.com', 'Comment je fais j\'arrive pas, snif');
 
 -- --------------------------------------------------------
 
@@ -72,11 +80,11 @@ CREATE TABLE `grad` (
 --
 
 INSERT INTO `grad` (`grad_id`, `grad`) VALUES
-(0, 'bannis'),
 (1, 'customer'),
 (2, 'managers'),
 (3, 'admin'),
-(4, 'master');
+(4, 'master'),
+(0, 'bannis');
 
 -- --------------------------------------------------------
 
@@ -109,6 +117,15 @@ CREATE TABLE `users` (
   `grad_id` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
+--
+-- Contenu de la table `users`
+--
+
+INSERT INTO `users` (`user_id`, `firstname`, `name`, `phonenumber`, `email`, `password`, `grad_id`) VALUES
+(1, 'alban', 'havard', '0620197240', 'alban.havard@aliceadsl.fr', 'apollo', 4),
+(2, 'sandro', 'havard', '0235841014', 'alban556@live.fr', 'sandro', 1),
+(9, 'tony', 'deconink', '0657512555', 'levieuxgÃ©rard@troudebal.fr', 'alban', 1);
+
 -- --------------------------------------------------------
 
 --
@@ -117,11 +134,11 @@ CREATE TABLE `users` (
 
 CREATE TABLE `view` (
   `id_view` int(11) NOT NULL,
-  `id_reservation` int(11) NOT NULL,
   `id_chamber` int(11) NOT NULL,
   `user_id` int(11) NOT NULL,
+  `id_reservation` int(11) NOT NULL,
   `mark` varchar(5) NOT NULL,
-  `discrib` text NOT NULL
+  `reviews` text NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -172,7 +189,7 @@ ALTER TABLE `view`
 -- AUTO_INCREMENT pour la table `contacts`
 --
 ALTER TABLE `contacts`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT pour la table `reservations`
 --
@@ -182,7 +199,7 @@ ALTER TABLE `reservations`
 -- AUTO_INCREMENT pour la table `users`
 --
 ALTER TABLE `users`
-  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 --
 -- AUTO_INCREMENT pour la table `view`
 --

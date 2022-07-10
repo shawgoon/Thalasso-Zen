@@ -7,4 +7,3 @@
   </div>
 
 <?php include('/footer.php'); ?>
-<?php  var_dump($connected); ?>

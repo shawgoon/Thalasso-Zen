@@ -30,7 +30,6 @@
 </style>
 
 <main>
-<p style="font-size:3em;">C'est la page chambre</p>
     <section>
         <div class="diaporama">
             <div class="flecheDroit">
@@ -46,36 +45,37 @@
     </section>
     <section>
     <div class="sectionNosChambre">
-        <div class="sectionNosChambreSide">
-            <div class="grandTitre">Nos Chambres</div>
+            <div class="sectionNosChambreSide">
+                <div class="grandTitre">Nos Chambres</div>
 
 
-            <section class="chambreFamille">
-                <div class="petitTitre">Chambre Famille</div>
-                <div class="divChambre">
-                    <div class="imageChambre"></div>
-                    <p class="texteChambre">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cumque nobis architecto quidem quod, hic deserunt perspiciatis est natus aliquam dolores saepe tenetur eveniet deleniti repellat temporibus qui molestiae porro! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt hic accusamus, commodi sit aliquid rem nulla, quis assumenda quos asperiores, sint nobis minima omnis praesentium nihil autem dicta perferendis voluptatum!</p>
-                </div>
-                <button class="buttonAchat">réserver cette chambre</button>
-            </section>
-            <section class="chambreCouple">
-                <div class="petitTitre">Chambre Couple</div>
-                <div class="divChambre">
-                <div class="imageChambre"></div>
-                    <p class="texteChambre">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cumque nobis architecto quidem quod, hic deserunt perspiciatis est natus aliquam dolores saepe tenetur eveniet deleniti repellat temporibus qui molestiae porro! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt hic accusamus, commodi sit aliquid rem nulla, quis assumenda quos asperiores, sint nobis minima omnis praesentium nihil autem dicta perferendis voluptatum!</p>
-                </div>
-                <button class="buttonAchat">réserver cette chambre</button>
-            </section>
-            <section class="chambreAmi">
-                <div class="petitTitre">Chambre Ami</div>
-                <div class="divChambre">
-                <div class="imageChambre"></div>
-                    <p class="texteChambre">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cumque nobis architecto quidem quod, hic deserunt perspiciatis est natus aliquam dolores saepe tenetur eveniet deleniti repellat temporibus qui molestiae porro! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt hic accusamus, commodi sit aliquid rem nulla, quis assumenda quos asperiores, sint nobis minima omnis praesentium nihil autem dicta perferendis voluptatum!</p>
-                </div>
-                <button class="buttonAchat">réserver cette chambre</button>
-            </section>
+                <section class="chambreFamille">
+                    <div class="petitTitre">Chambre Famille</div>
+                    <div class="divChambre">
+                        <div class="imageChambre"></div>
+                        <p class="texteChambre">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cumque nobis architecto quidem quod, hic deserunt perspiciatis est natus aliquam dolores saepe tenetur eveniet deleniti repellat temporibus qui molestiae porro! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt hic accusamus, commodi sit aliquid rem nulla, quis assumenda quos asperiores, sint nobis minima omnis praesentium nihil autem dicta perferendis voluptatum!</p>
+                    </div>
+                    <button class="buttonAchat">réserver cette chambre</button>
+                </section>
+                <section class="chambreCouple">
+                    <div class="petitTitre">Chambre Couple</div>
+                    <div class="divChambre">
+                        <p class="texteChambre">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cumque nobis architecto quidem quod, hic deserunt perspiciatis est natus aliquam dolores saepe tenetur eveniet deleniti repellat temporibus qui molestiae porro! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt hic accusamus, commodi sit aliquid rem nulla, quis assumenda quos asperiores, sint nobis minima omnis praesentium nihil autem dicta perferendis voluptatum!</p>
+                        <div class="imageChambre"></div>
+
+                    </div>
+                    <button class="buttonAchat">réserver cette chambre</button>
+                </section>
+                <section class="chambreAmi">
+                    <div class="petitTitre">Chambre Ami</div>
+                    <div class="divChambre">
+                        <div class="imageChambre"></div>
+                        <p class="texteChambre">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cumque nobis architecto quidem quod, hic deserunt perspiciatis est natus aliquam dolores saepe tenetur eveniet deleniti repellat temporibus qui molestiae porro! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt hic accusamus, commodi sit aliquid rem nulla, quis assumenda quos asperiores, sint nobis minima omnis praesentium nihil autem dicta perferendis voluptatum!</p>
+                    </div>
+                    <button class="buttonAchat">réserver cette chambre</button>
+                </section>
+            </div>
         </div>
-    </div>
     </section>
 </main>
 
@@ -154,12 +154,12 @@
 
 .imageChambre{
     background-color: white;
-    width: 30%;
+    width: 40%;
     height: 25vh;
 }
 
 .texteChambre{
-    width: 60%;
+    width: 50%;
     color: #4FF216;
     text-align: center;
     display: flex;
