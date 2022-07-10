@@ -1,9 +1,9 @@
-<?php include('../header.php'); ?>
+%<?php include('../header.php'); ?>
 <style>
     /* changement de css nav */
     /* user & admin */
     #session{
-    background: #969494;
+        background: #969494;
     }
     .userUpdate,
     .adminUpdate{
@@ -84,9 +84,9 @@
 }
 </style>
 <?php include('../footer.php'); ?>
-<style>
-   /* changement de css footer */
- footer{
+<style>   
+    /* changement de css footer */
+footer{
     background: #504646;
     color: #4FF216;
 }

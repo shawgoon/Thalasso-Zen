@@ -1,8 +1,8 @@
 <?php include('../header.php'); ?>
 <style>
     /* changement de css nav */
-    /* user & admin */
-    #session{
+     /* user & admin */
+     #session{
     background: #969494;
     }
     .userUpdate,
@@ -25,7 +25,7 @@
         color: #4FF216;
     }
     #public li:hover{
-    background: #5f5858;
+        background: #5f5858;
     }
 </style>
 
@@ -205,6 +205,8 @@
     align-items: center;
 }
 </style>
+
+
 <?php include('../footer.php'); ?>
 <style>
     /* changement de css footer */

@@ -62,7 +62,6 @@
                     <div class="divChambre">
                         <p class="texteChambre">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus cumque nobis architecto quidem quod, hic deserunt perspiciatis est natus aliquam dolores saepe tenetur eveniet deleniti repellat temporibus qui molestiae porro! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt hic accusamus, commodi sit aliquid rem nulla, quis assumenda quos asperiores, sint nobis minima omnis praesentium nihil autem dicta perferendis voluptatum!</p>
                         <div class="imageChambre"></div>
-
                     </div>
                     <button class="buttonAchat">réserver cette chambre</button>
                 </section>
