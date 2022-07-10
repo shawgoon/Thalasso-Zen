@@ -3,14 +3,15 @@
 <div id="formSignup" class="hide" style="display:none;">
     <?php if (!empty($_SESSION['user'])) { ?>
     <?php 
-        $sql = "SELECT * FROM users WHERE user_id";
-        $users = $instance->query($sql)->fetch();
+        $sql = "SELECT * FROM users WHERE user_id"; //=" .$_POST['userId'];
+        $users = $instance->query($sql)->fetch/* All */();
     ?>
     <h2>Modification</h2>
+        <form class="" action="../common/updateUser.php" method="post">
     <?php } else { ?>
     <h2>Inscription</h2>
-    <?php } ?>
         <form class="" action="../common/insertUser.php" method="post">
+    <?php } ?>
             <label for="">Nom <span class="star">*</span></label><br>
                 <input required="required" type="text" name="name" value="<?php if (!empty($_SESSION)) {echo $users['name'];} ?>">
             <label for="">Prénom <span class="star">*</span></label><br>

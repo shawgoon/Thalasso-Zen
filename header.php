@@ -47,7 +47,7 @@
     <?php if (!empty($_SESSION)) { ?>
         <nav id="session">
             <ul>
-                <li><button class="userUpdate" href="#formSignup" value="">Modifier mes informations</button>
+                <li><button class="userUpdate" name="userId" href="#formSignup" value="">Modifier mes informations</button>
                 <input type="hidden" name="user_id" value="<?php echo $_SESSION['user']['grad'] ?>"></li>
                 <?php if (!empty($_SESSION['user']['grad'] >= 3)) { ?>  
                     <li>      

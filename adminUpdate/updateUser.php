@@ -9,7 +9,6 @@
       email = '".$_POST['email']."',
       password = '".$_POST['password']."',
       grad_id = '".$_POST['grad_id']."',
-      my_zip = '".$_POST['my_zip']."',
       WHERE id=" .$_POST['userId'];
   $updateSuccess = $instance->exec($sql);
       if ($updateSuccess) {
