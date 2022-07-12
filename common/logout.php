@@ -1,6 +1,6 @@
+<?php include ('../pdo.php');?>
 <?php 
-    include('../header.php');
-    
+    session_start();
     // On supprime la session, ce qui va déconnecter l'utilisateur.
     unset($_SESSION['user']);
     if (empty($_SESSION['user'])) { 
@@ -15,10 +15,10 @@
             <p>Vous êtes encore là ^^</p>
         <?php } ?>
     </div>
-    <?php include('../footer.php') ?>
+    
     
     
     <?php
-       // header('Location: http://localhost/Thalasso-Zen/index.php'); // renseigner la bonne adresse d'hébergeur( localhost)
-       //exit();
+       header('Location: http://localhost/Thalasso-Zen/index.php'); // renseigner la bonne adresse d'hébergeur( localhost)
+       exit();
     ?>

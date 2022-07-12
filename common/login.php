@@ -1,5 +1,7 @@
-<?php include('../header.php'); ?>
+<?php include ('../pdo.php');?>
 <?php $connected = false;
+
+session_start();
 
 if (isset($_POST['phonenumber']) && isset($_POST['password'])) {
 
@@ -18,15 +20,15 @@ if (isset($_POST['phonenumber']) && isset($_POST['password'])) {
 }?>
 
   <?php if ($connected) { ?>
-    <?php //header('Location: http://localhost/Thalasso-Zen/index.php'); //donner votre adresse de la page d'accueil
-    $message = "vous êtes connecté !";
-    //exit();?>
+    <?php header('Location: http://localhost/Thalasso-Zen/index.php'); //donner votre adresse de la page d'accueil
+    // $message = "vous êtes connecté !";
+    exit();?>
   <?php } else { ?>
   
     <?php
-    $message = "vous n'êtes pas connecté ^^";
-    //header('Location: http://localhost/Thalasso-Zen/error-404.php');
-    //exit();
+    // $message = "vous n'êtes pas connecté ^^";
+    header('Location: http://localhost/Thalasso-Zen/error-404.php');
+    exit();
     ?>
   <?php } ?>
 <?php } ?>
@@ -39,4 +41,3 @@ if (isset($_POST['phonenumber']) && isset($_POST['password'])) {
         <?php } ?>
   </div>
 
-<?php include('../footer.php'); ?>
