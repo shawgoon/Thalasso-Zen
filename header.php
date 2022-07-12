@@ -30,7 +30,7 @@
 			<?php if (!empty($_SESSION)) {  ?>
     <!-- affichage privé -->
             <div>
-                <span class="session">Bonjour, <?php echo $_SESSION ['user']['userName']; ?></span><br>
+                <span class="session">Bonjour, <?= $_SESSION ['user']['userName']; ?></span><br>
                 <a class="logout" href="../common/logout.php"><i class="fa fa-power-off" aria-hidden="true"></i> Déconnexion</a>
             </div>
             <?php } else { ?>

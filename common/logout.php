@@ -3,18 +3,18 @@
     session_start();
     // On supprime la session, ce qui va déconnecter l'utilisateur.
     unset($_SESSION['user']);
-    if (empty($_SESSION['user'])) { 
-        $message = "Vous êtes déconnecté avec succès.";
-    }
+    // if (empty($_SESSION['user'])) { 
+    //     $message = "Vous êtes déconnecté avec succès.";
+    // }
     ?>
-    <div class="message">
-        <h5 class=""><?php echo $message ?></h5>
-        <?php if (empty($_SESSION)){ ?>
+    <!-- <div class="message">
+        <h5 class=""><?php //echo $message ?></h5>
+        <?php //if (empty($_SESSION)){ ?>
             <p>Au revoir.</p>
-        <?php } else {?>
+        <?php //} else {?>
             <p>Vous êtes encore là ^^</p>
-        <?php } ?>
-    </div>
+        <?php// } ?>
+    </div> -->
     
     
     
