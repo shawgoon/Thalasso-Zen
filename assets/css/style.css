@@ -35,7 +35,8 @@ ul{
 }
 #logo{
     position: absolute;
-    top: 0; 
+    top: 0;
+    padding:0.5em;
     color: #4FF216; 
 }
 h1 span{
@@ -193,6 +194,8 @@ footer img{
     }
     #login{
         font-size: 3em;
+        top: 6em;
+        right: 20em;
     }
 
     /* nav users & admin */
