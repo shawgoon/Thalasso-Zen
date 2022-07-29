@@ -45,7 +45,7 @@
         <p>Situé entre Dieppe et Rouen dans la vallée  de la Scie, 
         notre établissement est un hâvre de paix et de relaxation 
         pour la famille, les couples, ou bien entre amis.
-        La cadre idilique en bord de rivière relaxant en tout point.
+        Le cadre idilique en bord de rivière relaxant en tout point.
         Et avec toutes nos activités vous repartirez détendu.</p>
     </div>
     <div id="park">
