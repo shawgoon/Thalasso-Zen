@@ -1,5 +1,5 @@
 <?php require __dir__.'/common/initSession.php'; ?>
-<?php include ('../pdo.php');?>
+<?php include ('/pdo.php');?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -41,8 +41,8 @@
     </header>
     <div id="content" style="display:none;"></div>
         <div id="wrapper" style="display:none;">
-            <?php include "../forms/formSignup.php"; ?>
-            <?php include "../forms/formLogin.php"; ?>
+            <?php include "/forms/formSignup.php"; ?>
+            <?php include "/forms/formLogin.php"; ?>
         </div>
     <?php if (!empty($_SESSION)) { ?>
         <nav id="session">
@@ -61,11 +61,16 @@
                             <option value="http://localhost/Thalasso-Zen/data/dataView.php"><a href="">Avis</a></option>
                         </select>   
                     </li>
-                <?php  } ?>   
-            </ul>
-        </nav>            
-        
-    <?php } ?>
+                    <?php  } ?>   
+                </ul>
+            </nav>            
+            
+            <?php } ?>
+            <div id="content" style="display:none;"></div>
+                <div id="wrapper" style="display:none;">
+                    <?php include "forms/formSignup.php"; ?>
+                    <?php include "forms/formLogin.php"; ?>
+                </div>
     <nav id="public">
         <ul>
             <li><a href="http://localhost/Thalasso-Zen/page accueil/accueil.php">Accueil</a></li>
